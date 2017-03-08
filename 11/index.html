@@ -1,0 +1,184 @@
+<!-- Author: Tanmoy Thander -->
+<!-- tanmoythander@gmail.com -->
+<!-- http://github.com/tanmoythander -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags MUST come first in the head
+	Any other head content must come AFTER these tags -->
+	<title>Beginner Bootstrap Template</title>
+	<!-- Bootstrap's CSS -->
+	<link href="../lib/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Font Awesome CSS -->
+	<link href="../lib/css/font-awesome.min.css" rel="stylesheet">
+	<!-- Your other CSS starts here -->
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<!-- Your other CSS Ends here -->
+</head>
+<body>
+	<header>
+		<div class="jumbotron">
+			<div class="container">
+				<h1>Bootstrap Navbar<i class="fa fa-tachometer fa-2x pull-right" aria-hidden="true"></i></h1>
+				<hr>
+				<p>Bootstrap navbar example</p>
+				<a href="../index.html" type="button" class="btn btn-success btn-lg">Home</a>
+				<div class="btn-group btn-group-lg pull-right">
+					<a href="../10/index.html" type="button" class="btn btn-primary">Previous</a>
+					<a href="#" type="button" class="btn btn-warning">Next</a>
+			</div>
+		</div>
+	</header>
+	<div class="container">
+		<div class="well">
+			<h2>Navbar Default</h2>
+			<p>Decrease your browser window to see the effect on smaller devices.</p>
+			<p>This Navbar has full width, but the contents are not fully expanded. To keep the navbar-width equal to the container, place the navbar inside the container.</p>
+		</div>
+	</div>
+	<!-- Navbar Starts -->
+	<nav class="navbar navbar-default">
+		<div class="container">
+			<!-- Header -->
+			<div class="navbar-header">
+				<a href="#" class="navbar-brand">
+					Owlette
+				</a>
+				<button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#default-navbar">
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+			</div>
+			<!-- Collapse -->
+			<div class="navbar-collapse collapse" id="default-navbar">
+				<!-- First nav -->
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Strength</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							More <span class="caret"></span>
+						</a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Portfolio</a></li>
+							<li><a href="#">Contact</a></li>
+							<li><a href="#">About</a></li>
+							<li><a href="#">Help us</a></li>
+						</ul>
+					</li>
+				</ul><!-- First nav end -->
+				<form class="navbar-form navbar-left">
+					<div class="form-group">
+						<input type="text" name="" class="form-control" placeholder="Search...">
+					</div>
+					<button class="btn btn-info">Go</button>
+				</form>
+				<!-- Second nav -->
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="#">Menu-1</a></li>
+					<li><a href="#">Menu-2</a></li>
+					<li><a href="#">Menu-3</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							More <span class="caret"></span>
+						</a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Sub Menu-1</a></li>
+							<li><a href="#">Sub Menu-2</a></li>
+							<li><a href="#">Sub Menu-3</a></li>
+							<li><a href="#">Sub Menu-4</a></li>
+						</ul>
+					</li>
+				</ul><!-- Second nav end -->
+			</div>
+		</div>
+	</nav><!-- Navbar Ends -->
+
+
+	<hr>
+	<div class="container">
+		<div class="well">
+			<h2>Navbar Inverse</h2>
+			<p>Added Brand-Logo and Collapse-Icon</p>
+			<p>The navbar has full width</p>
+		</div>
+	</div>
+	<!-- Navbar Starts -->
+	<nav class="navbar navbar-inverse">
+		<div class="container-fluid">
+			<!-- Header -->
+			<div class="navbar-header">
+				<a href="#" class="navbar-brand">
+					<img src="img/logo/owlette.png" id="brand-logo">
+				</a>
+				<button class="navbar-toggle collapsed" data-toggle="collapse" data-target="#inverse-navbar">
+					<img src="img/owlette-icon.png" id="collapse-icon">
+				</button>
+			</div>
+			<!-- Collapse -->
+			<div class="navbar-collapse collapse" id="inverse-navbar">
+				<!-- First nav -->
+				<ul class="nav navbar-nav">
+					<li class="active"><a href="#">Home</a></li>
+					<li><a href="#">Services</a></li>
+					<li><a href="#">Strength</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							More <span class="caret"></span>
+						</a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Portfolio</a></li>
+							<li><a href="#">Contact</a></li>
+							<li><a href="#">About</a></li>
+							<li><a href="#">Help us</a></li>
+						</ul>
+					</li>
+				</ul><!-- First nav end -->
+				<form class="navbar-form navbar-left">
+					<div class="form-group">
+						<input type="text" name="" class="form-control" placeholder="Search...">
+					</div>
+					<button class="btn btn-info">Go</button>
+				</form>
+				<!-- Second nav -->
+				<ul class="nav navbar-nav navbar-right">
+					<li class="active"><a href="#">Menu-1</a></li>
+					<li><a href="#">Menu-2</a></li>
+					<li><a href="#">Menu-3</a></li>
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown">
+							More <span class="caret"></span>
+						</a>
+						<ul class="dropdown-menu">
+							<li><a href="#">Sub Menu-1</a></li>
+							<li><a href="#">Sub Menu-2</a></li>
+							<li><a href="#">Sub Menu-3</a></li>
+							<li><a href="#">Sub Menu-4</a></li>
+						</ul>
+					</li>
+				</ul><!-- Second nav end -->
+			</div>
+		</div>
+	</nav><!-- Navbar Ends -->
+	
+
+
+
+
+
+
+	<!-- ##### WARNING: DONT PUT/WRITE HTML BELOW THIS LINE #### -->
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="../lib/js/jquery.min.js"></script>
+	<!-- Bootstrap's Javascript -->
+	<script src="../lib/js/bootstrap.min.js"></script>
+	<!-- Your Javascript Starts here -->
+
+	<!-- Your Javascript Ends here -->
+</body>
+</html>
