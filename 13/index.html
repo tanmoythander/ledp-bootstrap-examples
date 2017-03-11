@@ -1,0 +1,124 @@
+<!-- Author: Tanmoy Thander -->
+<!-- tanmoythander@gmail.com -->
+<!-- http://github.com/tanmoythander -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags MUST come first in the head
+	Any other head content must come AFTER these tags -->
+	<title>Beginner Bootstrap Template</title>
+	<!-- Bootstrap's CSS -->
+	<link href="../lib/css/bootstrap.min.css" rel="stylesheet">
+	<!-- Font Awesome CSS -->
+	<link href="../lib/css/font-awesome.min.css" rel="stylesheet">
+	<!-- Your other CSS starts here -->
+	<link rel="stylesheet" type="text/css" href="../lib/css/style.css">
+	<!-- Your other CSS Ends here -->
+</head>
+<body>
+	<header>
+		<div class="jumbotron">
+			<div class="container">
+				<h1>Bootstrap Collapsible<i class="fa fa-tachometer fa-2x pull-right" aria-hidden="true"></i></h1>
+				<hr>
+				<p>Bootstrap collapsible examples</p>
+				<a href="../index.html" type="button" class="btn btn-success btn-lg">Home</a>
+				<div class="btn-group btn-group-lg pull-right">
+					<a href="../12/index.html" type="button" class="btn btn-primary">Previous</a>
+					<a href="#" type="button" class="btn btn-warning">Next</a>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<div class="container">
+		<div class="well">
+			<h2>Simple Collapsible</h2>
+			<button class="btn btn-primary" data-toggle="collapse" data-target="#collapsible-1">Show / Hide</button>
+			<div class="collapse" id="collapsible-1">
+				<p>This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. </p>
+			</div>
+		</div>
+		<hr>
+		<div class="well">
+			<h2>Collapsible Panel</h2>
+			<div class="panel panel-success">
+				<div class="panel-heading">
+					<a data-toggle="collapse" data-target="#collapsible-2">Show / Hide</a>
+				</div>
+				<div class="collapse" id="collapsible-2">
+					<div class="panel-body">
+						<p>This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. </p>
+					</div>
+					<div class="panel-footer">
+						<p><small>This is footer</small></p>
+					</div>
+				</div>
+			</div>
+		</div>
+		<hr>
+		<div class="well">
+			<h2>Accordion Collapsible Panel</h2>
+			<div class="panel-group" id="accordion">
+				<div class="panel panel-success">
+					<div class="panel-heading">
+						<a data-parent="#accordion" data-toggle="collapse" data-target="#collapsible-3">Show / Hide</a>
+					</div>
+					<div class="collapse" id="collapsible-3">
+						<div class="panel-body">
+							<p>This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. </p>
+						</div>
+						<div class="panel-footer">
+							<p><small>This is footer</small></p>
+						</div>
+					</div>
+				</div><!-- First panel end -->
+				<div class="panel panel-success">
+					<div class="panel-heading">
+						<a data-parent="#accordion" data-toggle="collapse" data-target="#collapsible-4">Show / Hide</a>
+					</div>
+					<div class="collapse" id="collapsible-4">
+						<div class="panel-body">
+							<p>This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. </p>
+						</div>
+						<div class="panel-footer">
+							<p><small>This is footer</small></p>
+						</div>
+					</div>
+				</div><!-- Second panel end -->
+				<div class="panel panel-success">
+					<div class="panel-heading">
+						<a data-parent="#accordion" data-toggle="collapse" data-target="#collapsible-5">Show / Hide</a>
+					</div>
+					<div class="collapse" id="collapsible-5">
+						<div class="panel-body">
+							<p>This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. This is a paragraph. </p>
+						</div>
+						<div class="panel-footer">
+							<p><small>This is footer</small></p>
+						</div>
+					</div>
+				</div><!-- Third panel end -->
+			</div><!-- End panel group -->
+		</div><!-- End Well -->
+	</div><!-- End container -->
+	
+
+
+
+
+
+
+	<!-- ##### WARNING: DONT PUT/WRITE HTML BELOW THIS LINE #### -->
+	<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+	<script src="../lib/js/jquery.min.js"></script>
+	<!-- Bootstrap's Javascript -->
+	<script src="../lib/js/bootstrap.min.js"></script>
+	<!-- Your Javascript Starts here -->
+
+	<!-- Your Javascript Ends here -->
+</body>
+</html>
